@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/yosefbeder/testing-conventional-commits/compare/v1.1.0...v1.1.1) (2021-12-06)
+
+
+### Bug Fixes
+
+* replace esm with commonjs modules ([a131206](https://github.com/yosefbeder/testing-conventional-commits/commit/a131206318163cc92fddd7af6fb73e1eaddcade5))
+
 ## 1.1.0 (2021-12-06)
 
 
