@@ -6,4 +6,4 @@ const mult = (n1, n2) => n1 * n2;
 
 const div = (n1, n2) => n1 / n2;
 
-module.exports = { sub, add };
+module.exports = { sub, add, mult, div };
