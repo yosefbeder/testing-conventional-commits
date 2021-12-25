@@ -9,4 +9,12 @@ const mul = (...ns) =>
 const div = (...ns) =>
 	ns.reduce((acc, n, i) => (i === 0 ? acc : acc / n), ns[0]);
 
-module.exports = { sub, add, mul, div };
+const toRadian = deg => deg * (Math.PI / 180);
+
+const sin = deg => Math.sin(toRadian(deg));
+
+const cos = deg => Math.cos(toRadian(deg));
+
+const tan = deg => Math.tan(toRadian(deg));
+
+module.exports = { sub, add, mul, div, sin, cos, tan };
